@@ -1,0 +1,38 @@
+/* stili generali della pagina */
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+/* Stile del contenitore SVG */
+svg {
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stile per le etichette di testo sugli edifici */
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  fill: #ffffff;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
